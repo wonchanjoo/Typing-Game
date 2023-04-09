@@ -180,7 +180,7 @@ public class GamePanel extends JPanel {
         @Override
         public void paintComponent(Graphics g) {
             super.paintComponent(g);
-            ImageIcon backGroundIcon = new ImageIcon("images/BackGround.jpg");
+            ImageIcon backGroundIcon = new ImageIcon("images/BackGround.jpeg");
             Image backGround = backGroundIcon.getImage();
             g.drawImage(backGround,  0, 0, getWidth(), getHeight(), this);
         }

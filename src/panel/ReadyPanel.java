@@ -23,7 +23,7 @@ public class ReadyPanel extends JPanel {
     private JButton korStart;
     private JButton engStart;
 
-    private ImageIcon backgroundIcon = new ImageIcon("images/readyBackground.jpg");
+    private ImageIcon backgroundIcon = new ImageIcon("images/readyBackground.jpeg");
     private Image background = backgroundIcon.getImage();
 
     public ReadyPanel(Container contentPane, GamePanel gamePanel) {
