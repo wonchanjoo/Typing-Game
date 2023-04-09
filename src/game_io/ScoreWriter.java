@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class SourceWriter {
+public class ScoreWriter {
     private PrintWriter printWriter = null;
 
     public void scoreWrite(String name, int score) {
